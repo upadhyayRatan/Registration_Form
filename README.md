@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Steps to run the app in local
+1- Clone the repo
+2- Do-> npm install
+3- Provide your mongoDb connection url in server.js file . (mongoose.connect("Your url")) 
+4- Build the app using - npm run build
+5- Start the server - npm run server
+6- Open browser port- localhost://3000 to get the app
 ## Available Scripts
 
 In the project directory, you can run:
