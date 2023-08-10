@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.registerHeading{
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #403a61;
+  padding: 4vh;
+  border-radius: 2%;
+  width: 50vw;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  height: 50px;
+  width: 100px;
+  font-family: "Poppins", sans-serif !important;
+  background-color: white;
+  border-radius: 28px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #403a61;
+  font-family: Arial;
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  margin: auto;
+}
+.buttons:hover {
+  background-color: #476e9e;
+}
+.buttons:active {
+  position: relative;
+  top: 1px;
+}
+
+.errMsg{
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.datePicker {
+  border: none;
+  width: 100%;
+}
+.formLabel{
+  margin: 5px;
+}
+.formInput{
+  padding: 10px;
+}
